@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testchangescene.SignupController">
+    <children>
+        <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C70039;">
+                    <children>
+                        <Label layoutX="55.0" layoutY="72.0" text="Chat Room" textFill="#fff9f9">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="47.0" layoutY="315.0" textFill="WHITE">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="400.0" prefWidth="407.0">
+                    <children>
+                        <Label layoutX="82.0" layoutY="14.0" prefHeight="70.0" prefWidth="255.0" text="Welcome!" textFill="#c70039">
+                            <font>
+                                <Font size="48.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="55.0" layoutY="120.0" text="First Name" />
+                        <Label layoutX="57.0" layoutY="157.0" text="Last Name" />
+                        <TextField fx:id="lastname" layoutX="146.0" layoutY="153.0" />
+                        <TextField fx:id="password" layoutX="146.0" layoutY="230.0" />
+                        <Label layoutX="84.0" layoutY="334.0" text="Already part of the crew?" />
+                        <Button fx:id="signup" layoutX="148.0" layoutY="269.0" mnemonicParsing="false" onAction="#signUpUser" prefHeight="42.0" prefWidth="96.0" style="-fx-background-color: #c70039; -fx-cursor: hand;" styleClass="c" text="Sign Up" textFill="WHITE">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="login" layoutX="230.0" layoutY="330.0" mnemonicParsing="false" onAction="#go_to_login" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Log In" textFill="#5100ff" />
+                        <Label layoutX="57.0" layoutY="234.0" text="Password" />
+                        <TextField fx:id="firstname" layoutX="146.0" layoutY="116.0" />
+                  <Label layoutX="71.0" layoutY="192.0" text="Email" />
+                  <TextField fx:id="email" layoutX="146.0" layoutY="188.0" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </HBox>
+    </children>
+</HBox>

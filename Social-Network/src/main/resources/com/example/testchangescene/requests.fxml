@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="466.0" prefWidth="402.0" stylesheets="@css/style.css"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.testchangescene.Requests">
+    <children>
+        <TableView fx:id="tableView" layoutX="36.0" layoutY="14.0" prefHeight="287.0" prefWidth="330.0">
+            <columns>
+                <TableColumn fx:id="tableColumnFirstName" prefWidth="163.20001220703125" text="C1"/>
+                <TableColumn fx:id="tableColumnLastName" prefWidth="166.4000244140625" text="C2"/>
+            </columns>
+        </TableView>
+        <Button fx:id="goBack" layoutX="10.0" layoutY="427.0" mnemonicParsing="false" onAction="#goBack" text="Back"/>
+        <Button layoutX="97.0" layoutY="329.0" mnemonicParsing="false" onAction="#accept" text="Accept"/>
+        <Button layoutX="241.0" layoutY="329.0" mnemonicParsing="false" onAction="#decline" text="Decline"/>
+    </children>
+</AnchorPane>
