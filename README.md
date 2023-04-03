@@ -15,4 +15,5 @@ This desktop app simulates a socializing app.An user can either log in or regist
 <h2>Technologies used </h2>
   Java;
   <br>
-  JavaFX;
+  JavaFX;<br>
+   PostgreSQL Database
